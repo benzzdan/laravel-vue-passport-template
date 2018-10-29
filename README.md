@@ -2,6 +2,12 @@
 This is a Laravel backend with passport authentication set with Vue JS front end Login and Register views
 
 
+<ul>
+      <li>hola</li>
+      <li>hola</li>
+      <li>hola</li>
+</ul>
+
 Steps to install: 
 
 1. composer install 
