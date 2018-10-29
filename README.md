@@ -18,3 +18,10 @@ Steps to install:
 5. php artisan migrate
 6. php artisan passport:install
 7. Update .env file with clien ID and secret from last command or from the entries on db
+
+
+Create a couple of users:
+
+➜  laravel-vue-passport-template git:(master) ✗ php artisan tinker
+Psy Shell v0.9.9 (PHP 7.1.16 — cli) by Justin Hileman
+>>> factory('App\User')->create()
